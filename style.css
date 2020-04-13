@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility */
+.text-center {
+  text-align: center;
+}
+
+.my-btn {
+  background: #eea12d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important;
+  border: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+nav {
+  background: #eea12d;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 64px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero {
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.hero-msg {
+  margin: 0 50px;
+}
+
+.hero-img {
+  margin: 0 50px;
+}
+
+.hero-msg h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #eea12d;
+}
+
+.hero-msg P {
+  line-height: 2rem;
+  margin: 70px 0;
+}
+
+.hero-msg .my-btn {
+  background: #eea12d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.hero-msg .my-btn i {
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+.hero-msg .my-btn:hover {
+  background: #4f7139 !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.hero-img img {
+  display: block;
+  width: 100%;
+}
+
+/* Grocery List */
+#grocery-list {
+  margin-bottom: 20px;
+}
+
+#grocery-list h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #4f7139;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  /* border: 1px solid red; */
+}
+
+.my-card {
+  cursor: pointer;
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.my-card:hover {
+  padding: 10px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+}
+
+.my-card-img {
+  display: block;
+  width: 100%;
+}
+
+.my-card-title h4 {
+  font-size: 1.5rem;
+  color: #eea12d;
+}
+
+.my-card-content p {
+  font-size: 1.2rem;
+  color: #4f7139;
+  padding-bottom: 20px;
+}
+
+.my-card-content button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  background: #4f7139;
+}
+
+.my-card-content button:hover {
+  background: #eea12d;
+}
