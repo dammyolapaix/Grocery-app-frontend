@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px) and (max-width: 992px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 992px) and (max-width: 1200px)"
+      href="css/desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1200px)"
+      href="css/large-desktop.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Home</a></li>
+              <li><a href="badges.html">Groceries</a></li>
+              <li><a href="collapsible.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <nav class="nav-bottom">
+      <ul>
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="/cart.html"
+            ><i class="fas fa-cart-plus"></i
+            ><span class="cart-count">3</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="my-cart-card">
+        <img
+          class="my-cart-img"
+          src="food-healthy-wood-table-128402.jpg"
+          alt=""
+        />
+        <div class="my-cart-title">
+          <h4>Vegetable</h4>
+        </div>
+        <!-- <div class="my-cart-content">
+          <p>
+            Ghs 50
+          </p>
+          <button class="my-btn">
+            Add To Cart <i class="fas fa-cart-plus"></i>
+          </button>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="space"></section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.sidenav').sidenav();
+      });
+    </script>
+  </body>
+</html>

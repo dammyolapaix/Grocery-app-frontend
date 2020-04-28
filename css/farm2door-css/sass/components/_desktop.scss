@@ -1,0 +1,110 @@
+@media screen and (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  //   Header section
+  header {
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: calc(100vh - 64px);
+      margin-top: 0;
+      margin-bottom: 0;
+      .hero-msg-container {
+        order: 1;
+        .hero-msg {
+          h1 {
+            font-weight: bold;
+            font-size: 4rem;
+            color: $primary-color;
+          }
+          P {
+            line-height: 2rem;
+            margin: 70px 0;
+          }
+        }
+        .hero-action {
+          .my-btn {
+            background: rgb(240, 164, 47);
+            background: linear-gradient(
+              166deg,
+              rgba(240, 164, 47, 1) 0%,
+              rgba(72, 109, 50, 1) 100%
+            );
+            color: $white;
+            text-align: center;
+            font-size: 1.5rem;
+            &:hover {
+              background: $secondary-color;
+            }
+            i {
+              padding: 0 20px;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+      .hero-img {
+        order: 2;
+        margin: 0 50px;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  //   Grocery list section
+  section {
+    .text-center {
+      text-transform: uppercase;
+      color: $secondary-color;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .my-card {
+      margin: 20px 10px;
+    }
+
+    // .my-card {
+    //   cursor: pointer;
+    //   padding: 10px;
+    //   margin: 20px 10px;
+    //   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important;
+    //   &:hover {
+    //     padding: 10px;
+    //     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+    //   }
+    //   .my-card-img {
+    //     display: block;
+    //     width: 100%;
+    //   }
+    //   .my-card-title {
+    //     h4 {
+    //       font-size: 1.5rem;
+    //       color: $primary-color;
+    //       margin: 10px 0 10px 0;
+    //     }
+    //   }
+    // }
+    // .my-card-content {
+    //   p {
+    //     font-size: 1.2rem;
+    //     font-weight: bold;
+    //     color: $secondary-color;
+    //     margin: 10px 0 10px 0;
+    //   }
+    //   .my-btn {
+    //     color: $white;
+    //     background: $secondary-color;
+    //     &:hover {
+    //       background: $primary-color;
+    //     }
+    //   }
+    // }
+  }
+}

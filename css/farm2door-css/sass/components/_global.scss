@@ -1,0 +1,20 @@
+@import 'colors';
+nav {
+  // background: $primary-color;
+  background: rgb(240, 164, 47);
+  background: linear-gradient(
+    166deg,
+    rgba(240, 164, 47, 1) 0%,
+    rgba(72, 109, 50, 1) 100%
+  );
+}
+
+.nav-bottom {
+  display: none;
+}
+
+header {
+  height: calc(100vh - 56px) !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
